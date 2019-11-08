@@ -34,4 +34,4 @@ if point == 1:
 	print(conversion_decimal(second_decimal) + conversion_integer(second_integer))
 else:
 	second_integer = list(map(int,secondStr))
-	conversion_integer(second_integer)
+	print(conversion_integer(second_integer))
