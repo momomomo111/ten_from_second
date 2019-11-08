@@ -16,6 +16,7 @@ def conversion_integer(integer):
 
 def conversion_decimal(decimal):
 	sum = 0
+	decimal = decimal[::-1]
 	for i in range(len(decimal)):
 		tmp = 0
 		if decimal[i] == 1:
